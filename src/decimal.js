@@ -11,7 +11,7 @@ class Decimal extends Component {
     }
 
     Hitung = () => {
-        let decimal = this.state.decimal
+        let decimal = +this.state.decimal
 
         if (this.state.konversi === "biner") {
             return this.setState({

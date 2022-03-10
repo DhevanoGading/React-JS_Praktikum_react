@@ -56,7 +56,7 @@ class Hexadecimal extends Component {
                         <div className='row mb-3'>
                             <label className='col-sm-3 col-form-label'>Hexadecimal</label>
                             <div class="col-sm-9">
-                                <input type='number' className='form-control' onChange={this.changeHexadecmal}></input>
+                                <input type='text' className='form-control' onChange={this.changeHexadecmal}></input>
                             </div>
                         </div>
                         <div className='row mb-3'>
