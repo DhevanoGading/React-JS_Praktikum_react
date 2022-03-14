@@ -11,13 +11,13 @@ import Hexadecimal from '../hexadecimal';
 
 const Utama = () => (
     <Switch>
-        <Route exact path="/bmi" component={BMI} />
-        <Route exact path="/bank" component={Bank} />
-        <Route exact path="/hitung" component={Hitung} />
-        <Route exact path="/biner" component={Biner} />
-        <Route exact path="/decimal" component={Decimal} />
-        <Route exact path="/oktal" component={Oktal} />
-        <Route exact path="/hexadecimal" component={Hexadecimal} />
+        <Route path="/bmi" component={BMI} />
+        <Route path="/bank" component={Bank} />
+        <Route path="/hitung" component={Hitung} />
+        <Route path="/biner" component={Biner} />
+        <Route path="/decimal" component={Decimal} />
+        <Route path="/oktal" component={Oktal} />
+        <Route path="/hexadecimal" component={Hexadecimal} />
     </Switch>
 )
 
